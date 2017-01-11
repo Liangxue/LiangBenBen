@@ -7,25 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37FA73DF435863A872B7907A /* libPods-LiangBenBen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7C6831AD929E4647DEC5F0 /* libPods-LiangBenBen.a */; };
+		8530648E1E25DE9100A57297 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8530648B1E25DE9100A57297 /* HttpTool.m */; };
+		8530648F1E25DE9100A57297 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8530648D1E25DE9100A57297 /* UIImageView+SDWebImage.m */; };
+		853064921E25E19B00A57297 /* LBBBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064911E25E19B00A57297 /* LBBBaseHandler.m */; };
+		853064951E25E2AE00A57297 /* LBBHomeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064941E25E2AE00A57297 /* LBBHomeHandler.m */; };
+		853064981E25EFCF00A57297 /* LBBLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064971E25EFCF00A57297 /* LBBLive.m */; };
+		8530649B1E25EFE200A57297 /* LBBCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8530649A1E25EFE200A57297 /* LBBCreator.m */; };
+		8530649E1E25EFF200A57297 /* LBBAdvertise.m in Sources */ = {isa = PBXBuildFile; fileRef = 8530649D1E25EFF200A57297 /* LBBAdvertise.m */; };
+		853064A11E25F20300A57297 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064A01E25F20300A57297 /* MJExtensionConfig.m */; };
+		853064A51E25F6D900A57297 /* LBBLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064A31E25F6D900A57297 /* LBBLiveCell.m */; };
+		853064A81E2611D100A57297 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853064A71E2611D100A57297 /* IJKMediaFramework.framework */; };
+		853064AA1E2611E900A57297 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853064A91E2611E900A57297 /* VideoToolbox.framework */; };
+		853064AC1E2611F000A57297 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853064AB1E2611F000A57297 /* QuartzCore.framework */; };
+		853064AE1E2611FB00A57297 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853064AD1E2611FB00A57297 /* OpenGLES.framework */; };
+		853064B01E26120500A57297 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853064AF1E26120500A57297 /* MobileCoreServices.framework */; };
+		853064B21E26120E00A57297 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853064B11E26120E00A57297 /* MediaPlayer.framework */; };
+		853064B41E26121800A57297 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853064B31E26121800A57297 /* CoreGraphics.framework */; };
+		853064B61E26121F00A57297 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853064B51E26121F00A57297 /* AVFoundation.framework */; };
+		853064B81E26122B00A57297 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853064B71E26122B00A57297 /* AudioToolbox.framework */; };
+		853064BA1E26123600A57297 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 853064B91E26123600A57297 /* libbz2.tbd */; };
+		853064BC1E26123D00A57297 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 853064BB1E26123D00A57297 /* libz.tbd */; };
+		853064BF1E26139D00A57297 /* LBBPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064BE1E26139D00A57297 /* LBBPlayerViewController.m */; };
+		853064C31E26194400A57297 /* LBBLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064C11E26194400A57297 /* LBBLiveChatViewController.m */; };
+		853064C41E26194400A57297 /* LBBLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853064C21E26194400A57297 /* LBBLiveChatViewController.xib */; };
 		8550B18D1E2391AC003E4872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B18C1E2391AB003E4872 /* main.m */; };
-		8550B1901E2391AC003E4872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B18F1E2391AC003E4872 /* AppDelegate.m */; };
-		8550B1931E2391AC003E4872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1921E2391AC003E4872 /* ViewController.m */; };
 		8550B1961E2391AC003E4872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1941E2391AC003E4872 /* Main.storyboard */; };
 		8550B1981E2391AC003E4872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1971E2391AC003E4872 /* Assets.xcassets */; };
 		8550B19B1E2391AC003E4872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1991E2391AC003E4872 /* LaunchScreen.storyboard */; };
+		8550B1DE1E23923C003E4872 /* LBBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1A41E23923C003E4872 /* LBBBaseViewController.m */; };
+		8550B1DF1E23923C003E4872 /* LBBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1A61E23923C003E4872 /* LBBNavigationController.m */; };
+		8550B1E01E23923C003E4872 /* LBBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1A81E23923C003E4872 /* LBBTabBar.m */; };
+		8550B1E11E23923C003E4872 /* LBBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1AA1E23923C003E4872 /* LBBTabBarViewController.m */; };
+		8550B1E21E23923C003E4872 /* LBBFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1B11E23923C003E4872 /* LBBFocusViewController.m */; };
+		8550B1E31E23923C003E4872 /* LBBFocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1B21E23923C003E4872 /* LBBFocusViewController.xib */; };
+		8550B1E41E23923C003E4872 /* LBBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1B41E23923C003E4872 /* LBBHomeViewController.m */; };
+		8550B1E51E23923C003E4872 /* LBBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1B51E23923C003E4872 /* LBBHomeViewController.xib */; };
+		8550B1E61E23923C003E4872 /* LBBHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1B71E23923C003E4872 /* LBBHotViewController.m */; };
+		8550B1E71E23923C003E4872 /* LBBHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1B81E23923C003E4872 /* LBBHotViewController.xib */; };
+		8550B1E81E23923C003E4872 /* LBBNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1BA1E23923C003E4872 /* LBBNearViewController.m */; };
+		8550B1E91E23923C003E4872 /* LBBNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1BB1E23923C003E4872 /* LBBNearViewController.xib */; };
+		8550B1EA1E23923C003E4872 /* LBBLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1C31E23923C003E4872 /* LBBLaunchViewController.m */; };
+		8550B1EB1E23923C003E4872 /* LBBLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1C41E23923C003E4872 /* LBBLaunchViewController.xib */; };
+		8550B1EC1E23923C003E4872 /* LBBMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1CD1E23923C003E4872 /* LBBMeViewController.m */; };
+		8550B1ED1E23923C003E4872 /* LBBMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1CE1E23923C003E4872 /* LBBMeViewController.xib */; };
+		8550B1EE1E23923C003E4872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1D61E23923C003E4872 /* AppDelegate.m */; };
+		8550B1F31E23956D003E4872 /* LBBTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1F21E23956D003E4872 /* LBBTopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F8EF7FC313232E542766089 /* Pods-LiangBenBen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiangBenBen.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiangBenBen/Pods-LiangBenBen.release.xcconfig"; sourceTree = "<group>"; };
+		8530648A1E25DE9100A57297 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		8530648B1E25DE9100A57297 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		8530648C1E25DE9100A57297 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		8530648D1E25DE9100A57297 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		853064901E25E19B00A57297 /* LBBBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBBaseHandler.h; sourceTree = "<group>"; };
+		853064911E25E19B00A57297 /* LBBBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBBaseHandler.m; sourceTree = "<group>"; };
+		853064931E25E2AE00A57297 /* LBBHomeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBHomeHandler.h; sourceTree = "<group>"; };
+		853064941E25E2AE00A57297 /* LBBHomeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBHomeHandler.m; sourceTree = "<group>"; };
+		853064961E25EFCF00A57297 /* LBBLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBLive.h; sourceTree = "<group>"; };
+		853064971E25EFCF00A57297 /* LBBLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBLive.m; sourceTree = "<group>"; };
+		853064991E25EFE200A57297 /* LBBCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBCreator.h; sourceTree = "<group>"; };
+		8530649A1E25EFE200A57297 /* LBBCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBCreator.m; sourceTree = "<group>"; };
+		8530649C1E25EFF200A57297 /* LBBAdvertise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBAdvertise.h; sourceTree = "<group>"; };
+		8530649D1E25EFF200A57297 /* LBBAdvertise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBAdvertise.m; sourceTree = "<group>"; };
+		8530649F1E25F20300A57297 /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
+		853064A01E25F20300A57297 /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
+		853064A21E25F6D900A57297 /* LBBLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBLiveCell.h; sourceTree = "<group>"; };
+		853064A31E25F6D900A57297 /* LBBLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBLiveCell.m; sourceTree = "<group>"; };
+		853064A71E2611D100A57297 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		853064A91E2611E900A57297 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		853064AB1E2611F000A57297 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		853064AD1E2611FB00A57297 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		853064AF1E26120500A57297 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		853064B11E26120E00A57297 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		853064B31E26121800A57297 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		853064B51E26121F00A57297 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		853064B71E26122B00A57297 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		853064B91E26123600A57297 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		853064BB1E26123D00A57297 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		853064BD1E26139D00A57297 /* LBBPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBPlayerViewController.h; sourceTree = "<group>"; };
+		853064BE1E26139D00A57297 /* LBBPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBPlayerViewController.m; sourceTree = "<group>"; };
+		853064C01E26194400A57297 /* LBBLiveChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBLiveChatViewController.h; sourceTree = "<group>"; };
+		853064C11E26194400A57297 /* LBBLiveChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBLiveChatViewController.m; sourceTree = "<group>"; };
+		853064C21E26194400A57297 /* LBBLiveChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBLiveChatViewController.xib; sourceTree = "<group>"; };
 		8550B1881E2391AB003E4872 /* LiangBenBen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiangBenBen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8550B18C1E2391AB003E4872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8550B18E1E2391AC003E4872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8550B18F1E2391AC003E4872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8550B1911E2391AC003E4872 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8550B1921E2391AC003E4872 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8550B1951E2391AC003E4872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8550B1971E2391AC003E4872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8550B19A1E2391AC003E4872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8550B19C1E2391AC003E4872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8550B1A31E23923C003E4872 /* LBBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBBaseViewController.h; sourceTree = "<group>"; };
+		8550B1A41E23923C003E4872 /* LBBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBBaseViewController.m; sourceTree = "<group>"; };
+		8550B1A51E23923C003E4872 /* LBBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBNavigationController.h; sourceTree = "<group>"; };
+		8550B1A61E23923C003E4872 /* LBBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBNavigationController.m; sourceTree = "<group>"; };
+		8550B1A71E23923C003E4872 /* LBBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBTabBar.h; sourceTree = "<group>"; };
+		8550B1A81E23923C003E4872 /* LBBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBTabBar.m; sourceTree = "<group>"; };
+		8550B1A91E23923C003E4872 /* LBBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBTabBarViewController.h; sourceTree = "<group>"; };
+		8550B1AA1E23923C003E4872 /* LBBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBTabBarViewController.m; sourceTree = "<group>"; };
+		8550B1B01E23923C003E4872 /* LBBFocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBFocusViewController.h; sourceTree = "<group>"; };
+		8550B1B11E23923C003E4872 /* LBBFocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBFocusViewController.m; sourceTree = "<group>"; };
+		8550B1B21E23923C003E4872 /* LBBFocusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBFocusViewController.xib; sourceTree = "<group>"; };
+		8550B1B31E23923C003E4872 /* LBBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBHomeViewController.h; sourceTree = "<group>"; };
+		8550B1B41E23923C003E4872 /* LBBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBHomeViewController.m; sourceTree = "<group>"; };
+		8550B1B51E23923C003E4872 /* LBBHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBHomeViewController.xib; sourceTree = "<group>"; };
+		8550B1B61E23923C003E4872 /* LBBHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBHotViewController.h; sourceTree = "<group>"; };
+		8550B1B71E23923C003E4872 /* LBBHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBHotViewController.m; sourceTree = "<group>"; };
+		8550B1B81E23923C003E4872 /* LBBHotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBHotViewController.xib; sourceTree = "<group>"; };
+		8550B1B91E23923C003E4872 /* LBBNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBNearViewController.h; sourceTree = "<group>"; };
+		8550B1BA1E23923C003E4872 /* LBBNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBNearViewController.m; sourceTree = "<group>"; };
+		8550B1BB1E23923C003E4872 /* LBBNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBNearViewController.xib; sourceTree = "<group>"; };
+		8550B1C21E23923C003E4872 /* LBBLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBLaunchViewController.h; sourceTree = "<group>"; };
+		8550B1C31E23923C003E4872 /* LBBLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBLaunchViewController.m; sourceTree = "<group>"; };
+		8550B1C41E23923C003E4872 /* LBBLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBLaunchViewController.xib; sourceTree = "<group>"; };
+		8550B1CC1E23923C003E4872 /* LBBMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBMeViewController.h; sourceTree = "<group>"; };
+		8550B1CD1E23923C003E4872 /* LBBMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBMeViewController.m; sourceTree = "<group>"; };
+		8550B1CE1E23923C003E4872 /* LBBMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBMeViewController.xib; sourceTree = "<group>"; };
+		8550B1D51E23923C003E4872 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8550B1D61E23923C003E4872 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8550B1F01E239379003E4872 /* liangbenben.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liangbenben.pch; sourceTree = "<group>"; };
+		8550B1F11E23956D003E4872 /* LBBTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBTopView.h; sourceTree = "<group>"; };
+		8550B1F21E23956D003E4872 /* LBBTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBTopView.m; sourceTree = "<group>"; };
+		8550B1F41E2492B4003E4872 /* LBBAPIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBAPIConfig.h; sourceTree = "<group>"; };
+		9A7C6831AD929E4647DEC5F0 /* libPods-LiangBenBen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiangBenBen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A661AC4107BE2DF89677E82F /* Pods-LiangBenBen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiangBenBen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiangBenBen/Pods-LiangBenBen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +138,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853064BC1E26123D00A57297 /* libz.tbd in Frameworks */,
+				853064BA1E26123600A57297 /* libbz2.tbd in Frameworks */,
+				853064B81E26122B00A57297 /* AudioToolbox.framework in Frameworks */,
+				853064B61E26121F00A57297 /* AVFoundation.framework in Frameworks */,
+				853064B41E26121800A57297 /* CoreGraphics.framework in Frameworks */,
+				853064B21E26120E00A57297 /* MediaPlayer.framework in Frameworks */,
+				853064B01E26120500A57297 /* MobileCoreServices.framework in Frameworks */,
+				853064AE1E2611FB00A57297 /* OpenGLES.framework in Frameworks */,
+				853064AC1E2611F000A57297 /* QuartzCore.framework in Frameworks */,
+				853064AA1E2611E900A57297 /* VideoToolbox.framework in Frameworks */,
+				37FA73DF435863A872B7907A /* libPods-LiangBenBen.a in Frameworks */,
+				853064A81E2611D100A57297 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1680F7E31A3C0657D055B854 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A661AC4107BE2DF89677E82F /* Pods-LiangBenBen.debug.xcconfig */,
+				2F8EF7FC313232E542766089 /* Pods-LiangBenBen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8550B17F1E2391AB003E4872 = {
 			isa = PBXGroup;
 			children = (
 				8550B18A1E2391AB003E4872 /* LiangBenBen */,
 				8550B1891E2391AB003E4872 /* Products */,
+				1680F7E31A3C0657D055B854 /* Pods */,
+				A3A88A308B8A1CFE2424864B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +186,15 @@
 		8550B18A1E2391AB003E4872 /* LiangBenBen */ = {
 			isa = PBXGroup;
 			children = (
-				8550B18E1E2391AC003E4872 /* AppDelegate.h */,
-				8550B18F1E2391AC003E4872 /* AppDelegate.m */,
-				8550B1911E2391AC003E4872 /* ViewController.h */,
-				8550B1921E2391AC003E4872 /* ViewController.m */,
+				8550B1A21E23923C003E4872 /* Base */,
+				8550B1AB1E23923C003E4872 /* Helper */,
+				8550B1AE1E23923C003E4872 /* Home */,
+				8550B1C01E23923C003E4872 /* Launch */,
+				8550B1C91E23923C003E4872 /* Lib */,
+				8550B1CA1E23923C003E4872 /* Me */,
+				8550B1D31E23923C003E4872 /* NetWork */,
+				8550B1D41E23923C003E4872 /* Other */,
+				8550B1D81E23923C003E4872 /* Show */,
 				8550B1941E2391AC003E4872 /* Main.storyboard */,
 				8550B1971E2391AC003E4872 /* Assets.xcassets */,
 				8550B1991E2391AC003E4872 /* LaunchScreen.storyboard */,
@@ -79,6 +212,319 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8550B1A21E23923C003E4872 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8550B1A31E23923C003E4872 /* LBBBaseViewController.h */,
+				8550B1A41E23923C003E4872 /* LBBBaseViewController.m */,
+				8550B1A51E23923C003E4872 /* LBBNavigationController.h */,
+				8550B1A61E23923C003E4872 /* LBBNavigationController.m */,
+				8550B1A71E23923C003E4872 /* LBBTabBar.h */,
+				8550B1A81E23923C003E4872 /* LBBTabBar.m */,
+				8550B1A91E23923C003E4872 /* LBBTabBarViewController.h */,
+				8550B1AA1E23923C003E4872 /* LBBTabBarViewController.m */,
+				853064901E25E19B00A57297 /* LBBBaseHandler.h */,
+				853064911E25E19B00A57297 /* LBBBaseHandler.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8550B1AB1E23923C003E4872 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8550B1AC1E23923C003E4872 /* Categray */,
+				8550B1AD1E23923C003E4872 /* Tools */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8550B1AC1E23923C003E4872 /* Categray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categray;
+			sourceTree = "<group>";
+		};
+		8550B1AD1E23923C003E4872 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8550B1AE1E23923C003E4872 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8550B1AF1E23923C003E4872 /* Controller */,
+				8550B1BC1E23923C003E4872 /* Handler */,
+				8550B1BD1E23923C003E4872 /* Model */,
+				8550B1BE1E23923C003E4872 /* Other */,
+				8550B1BF1E23923C003E4872 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8550B1AF1E23923C003E4872 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8550B1B01E23923C003E4872 /* LBBFocusViewController.h */,
+				8550B1B11E23923C003E4872 /* LBBFocusViewController.m */,
+				8550B1B21E23923C003E4872 /* LBBFocusViewController.xib */,
+				8550B1B31E23923C003E4872 /* LBBHomeViewController.h */,
+				8550B1B41E23923C003E4872 /* LBBHomeViewController.m */,
+				8550B1B51E23923C003E4872 /* LBBHomeViewController.xib */,
+				8550B1B61E23923C003E4872 /* LBBHotViewController.h */,
+				8550B1B71E23923C003E4872 /* LBBHotViewController.m */,
+				8550B1B81E23923C003E4872 /* LBBHotViewController.xib */,
+				8550B1B91E23923C003E4872 /* LBBNearViewController.h */,
+				8550B1BA1E23923C003E4872 /* LBBNearViewController.m */,
+				8550B1BB1E23923C003E4872 /* LBBNearViewController.xib */,
+				853064BD1E26139D00A57297 /* LBBPlayerViewController.h */,
+				853064BE1E26139D00A57297 /* LBBPlayerViewController.m */,
+				853064C01E26194400A57297 /* LBBLiveChatViewController.h */,
+				853064C11E26194400A57297 /* LBBLiveChatViewController.m */,
+				853064C21E26194400A57297 /* LBBLiveChatViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8550B1BC1E23923C003E4872 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				853064931E25E2AE00A57297 /* LBBHomeHandler.h */,
+				853064941E25E2AE00A57297 /* LBBHomeHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		8550B1BD1E23923C003E4872 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				853064961E25EFCF00A57297 /* LBBLive.h */,
+				853064971E25EFCF00A57297 /* LBBLive.m */,
+				853064991E25EFE200A57297 /* LBBCreator.h */,
+				8530649A1E25EFE200A57297 /* LBBCreator.m */,
+				8530649C1E25EFF200A57297 /* LBBAdvertise.h */,
+				8530649D1E25EFF200A57297 /* LBBAdvertise.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8550B1BE1E23923C003E4872 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8550B1BF1E23923C003E4872 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8550B1F11E23956D003E4872 /* LBBTopView.h */,
+				8550B1F21E23956D003E4872 /* LBBTopView.m */,
+				853064A21E25F6D900A57297 /* LBBLiveCell.h */,
+				853064A31E25F6D900A57297 /* LBBLiveCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8550B1C01E23923C003E4872 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				8550B1C11E23923C003E4872 /* Controller */,
+				8550B1C51E23923C003E4872 /* Handler */,
+				8550B1C61E23923C003E4872 /* Model */,
+				8550B1C71E23923C003E4872 /* Other */,
+				8550B1C81E23923C003E4872 /* View */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		8550B1C11E23923C003E4872 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8550B1C21E23923C003E4872 /* LBBLaunchViewController.h */,
+				8550B1C31E23923C003E4872 /* LBBLaunchViewController.m */,
+				8550B1C41E23923C003E4872 /* LBBLaunchViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8550B1C51E23923C003E4872 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		8550B1C61E23923C003E4872 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8550B1C71E23923C003E4872 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8550B1C81E23923C003E4872 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8550B1C91E23923C003E4872 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		8550B1CA1E23923C003E4872 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				8550B1CB1E23923C003E4872 /* Controller */,
+				8550B1CF1E23923C003E4872 /* Handler */,
+				8550B1D01E23923C003E4872 /* Model */,
+				8550B1D11E23923C003E4872 /* Other */,
+				8550B1D21E23923C003E4872 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		8550B1CB1E23923C003E4872 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8550B1CC1E23923C003E4872 /* LBBMeViewController.h */,
+				8550B1CD1E23923C003E4872 /* LBBMeViewController.m */,
+				8550B1CE1E23923C003E4872 /* LBBMeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8550B1CF1E23923C003E4872 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		8550B1D01E23923C003E4872 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8550B1D11E23923C003E4872 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8550B1D21E23923C003E4872 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8550B1D31E23923C003E4872 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				8550B1F41E2492B4003E4872 /* LBBAPIConfig.h */,
+				8530648A1E25DE9100A57297 /* HttpTool.h */,
+				8530648B1E25DE9100A57297 /* HttpTool.m */,
+				8530648C1E25DE9100A57297 /* UIImageView+SDWebImage.h */,
+				8530648D1E25DE9100A57297 /* UIImageView+SDWebImage.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		8550B1D41E23923C003E4872 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8550B1D51E23923C003E4872 /* AppDelegate.h */,
+				8550B1D61E23923C003E4872 /* AppDelegate.m */,
+				8550B1F01E239379003E4872 /* liangbenben.pch */,
+				8530649F1E25F20300A57297 /* MJExtensionConfig.h */,
+				853064A01E25F20300A57297 /* MJExtensionConfig.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8550B1D81E23923C003E4872 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				8550B1D91E23923C003E4872 /* Controller */,
+				8550B1DA1E23923C003E4872 /* Handler */,
+				8550B1DB1E23923C003E4872 /* Model */,
+				8550B1DC1E23923C003E4872 /* Other */,
+				8550B1DD1E23923C003E4872 /* View */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		8550B1D91E23923C003E4872 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8550B1DA1E23923C003E4872 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		8550B1DB1E23923C003E4872 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8550B1DC1E23923C003E4872 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8550B1DD1E23923C003E4872 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3A88A308B8A1CFE2424864B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				853064BB1E26123D00A57297 /* libz.tbd */,
+				853064B91E26123600A57297 /* libbz2.tbd */,
+				853064B71E26122B00A57297 /* AudioToolbox.framework */,
+				853064B51E26121F00A57297 /* AVFoundation.framework */,
+				853064B31E26121800A57297 /* CoreGraphics.framework */,
+				853064B11E26120E00A57297 /* MediaPlayer.framework */,
+				853064AF1E26120500A57297 /* MobileCoreServices.framework */,
+				853064AD1E2611FB00A57297 /* OpenGLES.framework */,
+				853064AB1E2611F000A57297 /* QuartzCore.framework */,
+				853064A91E2611E900A57297 /* VideoToolbox.framework */,
+				853064A71E2611D100A57297 /* IJKMediaFramework.framework */,
+				9A7C6831AD929E4647DEC5F0 /* libPods-LiangBenBen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +532,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8550B19F1E2391AC003E4872 /* Build configuration list for PBXNativeTarget "LiangBenBen" */;
 			buildPhases = (
+				7E42714F4EB9BEB7CD12423B /* [CP] Check Pods Manifest.lock */,
 				8550B1841E2391AB003E4872 /* Sources */,
 				8550B1851E2391AB003E4872 /* Frameworks */,
 				8550B1861E2391AB003E4872 /* Resources */,
+				EBDD522450466091688D896B /* [CP] Embed Pods Frameworks */,
+				E896B0C67DB604FF8022F299 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +554,7 @@
 		8550B1801E2391AB003E4872 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LBB;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = liangxue;
 				TargetAttributes = {
@@ -138,22 +588,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8550B1E51E23923C003E4872 /* LBBHomeViewController.xib in Resources */,
+				8550B1E71E23923C003E4872 /* LBBHotViewController.xib in Resources */,
 				8550B19B1E2391AC003E4872 /* LaunchScreen.storyboard in Resources */,
 				8550B1981E2391AC003E4872 /* Assets.xcassets in Resources */,
+				8550B1E31E23923C003E4872 /* LBBFocusViewController.xib in Resources */,
+				853064C41E26194400A57297 /* LBBLiveChatViewController.xib in Resources */,
 				8550B1961E2391AC003E4872 /* Main.storyboard in Resources */,
+				8550B1EB1E23923C003E4872 /* LBBLaunchViewController.xib in Resources */,
+				8550B1ED1E23923C003E4872 /* LBBMeViewController.xib in Resources */,
+				8550B1E91E23923C003E4872 /* LBBNearViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E42714F4EB9BEB7CD12423B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E896B0C67DB604FF8022F299 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiangBenBen/Pods-LiangBenBen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBDD522450466091688D896B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiangBenBen/Pods-LiangBenBen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8550B1841E2391AB003E4872 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8550B1931E2391AC003E4872 /* ViewController.m in Sources */,
-				8550B1901E2391AC003E4872 /* AppDelegate.m in Sources */,
+				8530649E1E25EFF200A57297 /* LBBAdvertise.m in Sources */,
+				8550B1EC1E23923C003E4872 /* LBBMeViewController.m in Sources */,
+				853064A11E25F20300A57297 /* MJExtensionConfig.m in Sources */,
+				8550B1E41E23923C003E4872 /* LBBHomeViewController.m in Sources */,
+				8550B1E21E23923C003E4872 /* LBBFocusViewController.m in Sources */,
+				8550B1DF1E23923C003E4872 /* LBBNavigationController.m in Sources */,
+				853064921E25E19B00A57297 /* LBBBaseHandler.m in Sources */,
+				8550B1E61E23923C003E4872 /* LBBHotViewController.m in Sources */,
+				8530648F1E25DE9100A57297 /* UIImageView+SDWebImage.m in Sources */,
+				8550B1DE1E23923C003E4872 /* LBBBaseViewController.m in Sources */,
+				8550B1E81E23923C003E4872 /* LBBNearViewController.m in Sources */,
+				8530649B1E25EFE200A57297 /* LBBCreator.m in Sources */,
+				853064951E25E2AE00A57297 /* LBBHomeHandler.m in Sources */,
+				8550B1E11E23923C003E4872 /* LBBTabBarViewController.m in Sources */,
+				853064A51E25F6D900A57297 /* LBBLiveCell.m in Sources */,
+				8550B1EE1E23923C003E4872 /* AppDelegate.m in Sources */,
+				8550B1E01E23923C003E4872 /* LBBTabBar.m in Sources */,
+				8550B1EA1E23923C003E4872 /* LBBLaunchViewController.m in Sources */,
+				8550B1F31E23956D003E4872 /* LBBTopView.m in Sources */,
 				8550B18D1E2391AC003E4872 /* main.m in Sources */,
+				853064981E25EFCF00A57297 /* LBBLive.m in Sources */,
+				853064C31E26194400A57297 /* LBBLiveChatViewController.m in Sources */,
+				853064BF1E26139D00A57297 /* LBBPlayerViewController.m in Sources */,
+				8530648E1E25DE9100A57297 /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +797,15 @@
 		};
 		8550B1A01E2391AC003E4872 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A661AC4107BE2DF89677E82F /* Pods-LiangBenBen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KY796692DU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/LiangBenBen/LiangBenBen/Other/liangbenben.pch;
 				INFOPLIST_FILE = LiangBenBen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yztMerchant.yztCompany.LiangBenBen;
@@ -283,9 +815,15 @@
 		};
 		8550B1A11E2391AC003E4872 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8EF7FC313232E542766089 /* Pods-LiangBenBen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KY796692DU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/LiangBenBen/LiangBenBen/Other/liangbenben.pch;
 				INFOPLIST_FILE = LiangBenBen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yztMerchant.yztCompany.LiangBenBen;
@@ -312,6 +850,7 @@
 				8550B1A11E2391AC003E4872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,24 @@
+//
+//  liangbenben.pch
+//  LiangBenBen
+//
+//  Created by xue on 2017/1/9.
+//  Copyright © 2017年 liangxue. All rights reserved.
+//
+
+#ifndef liangbenben_pch
+#define liangbenben_pch
+
+#import "LBBAPIConfig.h"
+#import "MJExtension.h"
+#import "Masonry.h"
+#import "UIImageView+SDWebImage.h"
+#define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT  [UIScreen mainScreen].bounds.size.height
+
+
+
+#define RGBCOLOR(x,y,z)  [UIColor colorWithRed:x/255.0 green:y/255.0 blue:z/255.0 alpha:1.0f]
+
+
+#endif /* liangbenben_pch */
