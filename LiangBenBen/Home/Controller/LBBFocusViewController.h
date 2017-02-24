@@ -8,6 +8,5 @@
 
 #import "LBBBaseViewController.h"
 
-@interface LBBFocusViewController : LBBBaseViewController
-
+@interface LBBFocusViewController : UITableViewController
 @end

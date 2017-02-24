@@ -64,7 +64,7 @@ typedef void (^HttpUploadProgressBlock)(CGFloat progress);
  *
  *  @param path     url地址
  *  @param image    UIImage对象
- *  @param thumbName    imagekey
+ *  @param imagekey    imagekey
  *  @param params  上传参数
  *  @param success  上传成功
  *  @param failure  上传失败

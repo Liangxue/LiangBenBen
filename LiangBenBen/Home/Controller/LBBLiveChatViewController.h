@@ -7,7 +7,9 @@
 //
 
 #import "LBBBaseViewController.h"
-
+#import "LBBLive.h"
 @interface LBBLiveChatViewController : LBBBaseViewController
+
+@property (nonatomic, strong) LBBLive * live;
 
 @end

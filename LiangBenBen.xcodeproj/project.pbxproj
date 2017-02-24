@@ -31,6 +31,37 @@
 		853064BF1E26139D00A57297 /* LBBPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064BE1E26139D00A57297 /* LBBPlayerViewController.m */; };
 		853064C31E26194400A57297 /* LBBLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064C11E26194400A57297 /* LBBLiveChatViewController.m */; };
 		853064C41E26194400A57297 /* LBBLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853064C21E26194400A57297 /* LBBLiveChatViewController.xib */; };
+		853064C71E26393300A57297 /* LBBLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064C61E26393300A57297 /* LBBLocationManager.m */; };
+		853064C91E263C3200A57297 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853064C81E263C3200A57297 /* CoreLocation.framework */; };
+		853064CF1E27219900A57297 /* LBBNearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064CD1E27219900A57297 /* LBBNearCell.m */; };
+		853064E51E27836300A57297 /* LBBAddModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064E41E27836300A57297 /* LBBAddModel.m */; };
+		853064E81E2784A700A57297 /* LBBAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064E71E2784A700A57297 /* LBBAddView.m */; };
+		853064EC1E27854500A57297 /* LBBAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853064EB1E27854500A57297 /* LBBAddView.xib */; };
+		853064EF1E278B8D00A57297 /* LBBCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 853064EE1E278B8D00A57297 /* LBBCacheHelper.m */; };
+		853064FD1E285E0E00A57297 /* camra_beauty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853064F41E285E0E00A57297 /* camra_beauty@2x.png */; };
+		853064FE1E285E0E00A57297 /* camra_beauty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853064F51E285E0E00A57297 /* camra_beauty@3x.png */; };
+		853064FF1E285E0E00A57297 /* camra_beauty_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853064F61E285E0E00A57297 /* camra_beauty_close@2x.png */; };
+		853065001E285E0E00A57297 /* camra_beauty_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853064F71E285E0E00A57297 /* camra_beauty_close@3x.png */; };
+		853065011E285E0E00A57297 /* camra_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853064F81E285E0E00A57297 /* camra_preview@2x.png */; };
+		853065021E285E0E00A57297 /* camra_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853064F91E285E0E00A57297 /* camra_preview@3x.png */; };
+		853065031E285E0E00A57297 /* close_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853064FA1E285E0E00A57297 /* close_preview@2x.png */; };
+		853065041E285E0E00A57297 /* close_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853064FB1E285E0E00A57297 /* close_preview@3x.png */; };
+		853065051E285E0E00A57297 /* ios-29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 853064FC1E285E0E00A57297 /* ios-29x29.png */; };
+		853065081E286F3F00A57297 /* LFLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 853065071E286F3F00A57297 /* LFLivePreview.m */; };
+		853065181E28A2C300A57297 /* PYSearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8530650C1E28A2C300A57297 /* PYSearch.bundle */; };
+		853065191E28A2C300A57297 /* PYSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8530650F1E28A2C300A57297 /* PYSearchConst.m */; };
+		8530651A1E28A2C300A57297 /* PYSearchSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853065111E28A2C300A57297 /* PYSearchSuggestionViewController.m */; };
+		8530651B1E28A2C300A57297 /* PYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853065131E28A2C300A57297 /* PYSearchViewController.m */; };
+		8530651C1E28A2C300A57297 /* UIColor+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 853065151E28A2C300A57297 /* UIColor+PYExtension.m */; };
+		8530651D1E28A2C300A57297 /* UIView+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 853065171E28A2C300A57297 /* UIView+PYExtension.m */; };
+		853065201E28A35D00A57297 /* LBBSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8530651F1E28A35D00A57297 /* LBBSearchController.m */; };
+		853065231E28A61B00A57297 /* LBBTempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853065221E28A61B00A57297 /* LBBTempViewController.m */; };
+		853065261E28B6B900A57297 /* AppDelegate+LBBSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 853065251E28B6B900A57297 /* AppDelegate+LBBSetup.m */; };
+		8530652A1E28B84400A57297 /* LBBMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853065281E28B84400A57297 /* LBBMeViewController.m */; };
+		8530652B1E28B84400A57297 /* LBBMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853065291E28B84400A57297 /* LBBMeViewController.xib */; };
+		8530652E1E28B87900A57297 /* LBBMeInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8530652D1E28B87900A57297 /* LBBMeInfoView.m */; };
+		853065301E28B88800A57297 /* LBBMeInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8530652F1E28B88800A57297 /* LBBMeInfoView.xib */; };
+		853065331E28BEFD00A57297 /* LBBSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 853065321E28BEFD00A57297 /* LBBSetting.m */; };
 		8550B18D1E2391AC003E4872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B18C1E2391AB003E4872 /* main.m */; };
 		8550B1961E2391AC003E4872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1941E2391AC003E4872 /* Main.storyboard */; };
 		8550B1981E2391AC003E4872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1971E2391AC003E4872 /* Assets.xcassets */; };
@@ -40,17 +71,13 @@
 		8550B1E01E23923C003E4872 /* LBBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1A81E23923C003E4872 /* LBBTabBar.m */; };
 		8550B1E11E23923C003E4872 /* LBBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1AA1E23923C003E4872 /* LBBTabBarViewController.m */; };
 		8550B1E21E23923C003E4872 /* LBBFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1B11E23923C003E4872 /* LBBFocusViewController.m */; };
-		8550B1E31E23923C003E4872 /* LBBFocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1B21E23923C003E4872 /* LBBFocusViewController.xib */; };
 		8550B1E41E23923C003E4872 /* LBBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1B41E23923C003E4872 /* LBBHomeViewController.m */; };
 		8550B1E51E23923C003E4872 /* LBBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1B51E23923C003E4872 /* LBBHomeViewController.xib */; };
 		8550B1E61E23923C003E4872 /* LBBHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1B71E23923C003E4872 /* LBBHotViewController.m */; };
 		8550B1E71E23923C003E4872 /* LBBHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1B81E23923C003E4872 /* LBBHotViewController.xib */; };
 		8550B1E81E23923C003E4872 /* LBBNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1BA1E23923C003E4872 /* LBBNearViewController.m */; };
-		8550B1E91E23923C003E4872 /* LBBNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1BB1E23923C003E4872 /* LBBNearViewController.xib */; };
 		8550B1EA1E23923C003E4872 /* LBBLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1C31E23923C003E4872 /* LBBLaunchViewController.m */; };
 		8550B1EB1E23923C003E4872 /* LBBLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1C41E23923C003E4872 /* LBBLaunchViewController.xib */; };
-		8550B1EC1E23923C003E4872 /* LBBMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1CD1E23923C003E4872 /* LBBMeViewController.m */; };
-		8550B1ED1E23923C003E4872 /* LBBMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8550B1CE1E23923C003E4872 /* LBBMeViewController.xib */; };
 		8550B1EE1E23923C003E4872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1D61E23923C003E4872 /* AppDelegate.m */; };
 		8550B1F31E23956D003E4872 /* LBBTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B1F21E23956D003E4872 /* LBBTopView.m */; };
 /* End PBXBuildFile section */
@@ -91,6 +118,55 @@
 		853064C01E26194400A57297 /* LBBLiveChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBLiveChatViewController.h; sourceTree = "<group>"; };
 		853064C11E26194400A57297 /* LBBLiveChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBLiveChatViewController.m; sourceTree = "<group>"; };
 		853064C21E26194400A57297 /* LBBLiveChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBLiveChatViewController.xib; sourceTree = "<group>"; };
+		853064C51E26393300A57297 /* LBBLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBLocationManager.h; sourceTree = "<group>"; };
+		853064C61E26393300A57297 /* LBBLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBLocationManager.m; sourceTree = "<group>"; };
+		853064C81E263C3200A57297 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		853064CC1E27219900A57297 /* LBBNearCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBNearCell.h; sourceTree = "<group>"; };
+		853064CD1E27219900A57297 /* LBBNearCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBNearCell.m; sourceTree = "<group>"; };
+		853064E31E27836300A57297 /* LBBAddModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBAddModel.h; sourceTree = "<group>"; };
+		853064E41E27836300A57297 /* LBBAddModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBAddModel.m; sourceTree = "<group>"; };
+		853064E61E2784A700A57297 /* LBBAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBAddView.h; sourceTree = "<group>"; };
+		853064E71E2784A700A57297 /* LBBAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBAddView.m; sourceTree = "<group>"; };
+		853064EB1E27854500A57297 /* LBBAddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBAddView.xib; sourceTree = "<group>"; };
+		853064ED1E278B8D00A57297 /* LBBCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBCacheHelper.h; sourceTree = "<group>"; };
+		853064EE1E278B8D00A57297 /* LBBCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBCacheHelper.m; sourceTree = "<group>"; };
+		853064F41E285E0E00A57297 /* camra_beauty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@2x.png"; sourceTree = "<group>"; };
+		853064F51E285E0E00A57297 /* camra_beauty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@3x.png"; sourceTree = "<group>"; };
+		853064F61E285E0E00A57297 /* camra_beauty_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@2x.png"; sourceTree = "<group>"; };
+		853064F71E285E0E00A57297 /* camra_beauty_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@3x.png"; sourceTree = "<group>"; };
+		853064F81E285E0E00A57297 /* camra_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@2x.png"; sourceTree = "<group>"; };
+		853064F91E285E0E00A57297 /* camra_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@3x.png"; sourceTree = "<group>"; };
+		853064FA1E285E0E00A57297 /* close_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@2x.png"; sourceTree = "<group>"; };
+		853064FB1E285E0E00A57297 /* close_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@3x.png"; sourceTree = "<group>"; };
+		853064FC1E285E0E00A57297 /* ios-29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-29x29.png"; sourceTree = "<group>"; };
+		853065061E286F3F00A57297 /* LFLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLivePreview.h; sourceTree = "<group>"; };
+		853065071E286F3F00A57297 /* LFLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLivePreview.m; sourceTree = "<group>"; };
+		8530650C1E28A2C300A57297 /* PYSearch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYSearch.bundle; sourceTree = "<group>"; };
+		8530650D1E28A2C300A57297 /* PYSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearch.h; sourceTree = "<group>"; };
+		8530650E1E28A2C300A57297 /* PYSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchConst.h; sourceTree = "<group>"; };
+		8530650F1E28A2C300A57297 /* PYSearchConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchConst.m; sourceTree = "<group>"; };
+		853065101E28A2C300A57297 /* PYSearchSuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchSuggestionViewController.h; sourceTree = "<group>"; };
+		853065111E28A2C300A57297 /* PYSearchSuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchSuggestionViewController.m; sourceTree = "<group>"; };
+		853065121E28A2C300A57297 /* PYSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchViewController.h; sourceTree = "<group>"; };
+		853065131E28A2C300A57297 /* PYSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchViewController.m; sourceTree = "<group>"; };
+		853065141E28A2C300A57297 /* UIColor+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PYExtension.h"; sourceTree = "<group>"; };
+		853065151E28A2C300A57297 /* UIColor+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PYExtension.m"; sourceTree = "<group>"; };
+		853065161E28A2C300A57297 /* UIView+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYExtension.h"; sourceTree = "<group>"; };
+		853065171E28A2C300A57297 /* UIView+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYExtension.m"; sourceTree = "<group>"; };
+		8530651E1E28A35D00A57297 /* LBBSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBSearchController.h; sourceTree = "<group>"; };
+		8530651F1E28A35D00A57297 /* LBBSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBSearchController.m; sourceTree = "<group>"; };
+		853065211E28A61B00A57297 /* LBBTempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBTempViewController.h; sourceTree = "<group>"; };
+		853065221E28A61B00A57297 /* LBBTempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBTempViewController.m; sourceTree = "<group>"; };
+		853065241E28B6B900A57297 /* AppDelegate+LBBSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+LBBSetup.h"; sourceTree = "<group>"; };
+		853065251E28B6B900A57297 /* AppDelegate+LBBSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+LBBSetup.m"; sourceTree = "<group>"; };
+		853065271E28B84400A57297 /* LBBMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBMeViewController.h; sourceTree = "<group>"; };
+		853065281E28B84400A57297 /* LBBMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBMeViewController.m; sourceTree = "<group>"; };
+		853065291E28B84400A57297 /* LBBMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBMeViewController.xib; sourceTree = "<group>"; };
+		8530652C1E28B87900A57297 /* LBBMeInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBMeInfoView.h; sourceTree = "<group>"; };
+		8530652D1E28B87900A57297 /* LBBMeInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBMeInfoView.m; sourceTree = "<group>"; };
+		8530652F1E28B88800A57297 /* LBBMeInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBMeInfoView.xib; sourceTree = "<group>"; };
+		853065311E28BEFD00A57297 /* LBBSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBSetting.h; sourceTree = "<group>"; };
+		853065321E28BEFD00A57297 /* LBBSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBSetting.m; sourceTree = "<group>"; };
 		8550B1881E2391AB003E4872 /* LiangBenBen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiangBenBen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8550B18C1E2391AB003E4872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8550B1951E2391AC003E4872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,7 +183,6 @@
 		8550B1AA1E23923C003E4872 /* LBBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBTabBarViewController.m; sourceTree = "<group>"; };
 		8550B1B01E23923C003E4872 /* LBBFocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBFocusViewController.h; sourceTree = "<group>"; };
 		8550B1B11E23923C003E4872 /* LBBFocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBFocusViewController.m; sourceTree = "<group>"; };
-		8550B1B21E23923C003E4872 /* LBBFocusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBFocusViewController.xib; sourceTree = "<group>"; };
 		8550B1B31E23923C003E4872 /* LBBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBHomeViewController.h; sourceTree = "<group>"; };
 		8550B1B41E23923C003E4872 /* LBBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBHomeViewController.m; sourceTree = "<group>"; };
 		8550B1B51E23923C003E4872 /* LBBHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBHomeViewController.xib; sourceTree = "<group>"; };
@@ -116,13 +191,9 @@
 		8550B1B81E23923C003E4872 /* LBBHotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBHotViewController.xib; sourceTree = "<group>"; };
 		8550B1B91E23923C003E4872 /* LBBNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBNearViewController.h; sourceTree = "<group>"; };
 		8550B1BA1E23923C003E4872 /* LBBNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBNearViewController.m; sourceTree = "<group>"; };
-		8550B1BB1E23923C003E4872 /* LBBNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBNearViewController.xib; sourceTree = "<group>"; };
 		8550B1C21E23923C003E4872 /* LBBLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBLaunchViewController.h; sourceTree = "<group>"; };
 		8550B1C31E23923C003E4872 /* LBBLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBLaunchViewController.m; sourceTree = "<group>"; };
 		8550B1C41E23923C003E4872 /* LBBLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBLaunchViewController.xib; sourceTree = "<group>"; };
-		8550B1CC1E23923C003E4872 /* LBBMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBMeViewController.h; sourceTree = "<group>"; };
-		8550B1CD1E23923C003E4872 /* LBBMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBMeViewController.m; sourceTree = "<group>"; };
-		8550B1CE1E23923C003E4872 /* LBBMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBBMeViewController.xib; sourceTree = "<group>"; };
 		8550B1D51E23923C003E4872 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8550B1D61E23923C003E4872 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8550B1F01E239379003E4872 /* liangbenben.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liangbenben.pch; sourceTree = "<group>"; };
@@ -138,6 +209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853064C91E263C3200A57297 /* CoreLocation.framework in Frameworks */,
 				853064BC1E26123D00A57297 /* libz.tbd in Frameworks */,
 				853064BA1E26123600A57297 /* libbz2.tbd in Frameworks */,
 				853064B81E26122B00A57297 /* AudioToolbox.framework in Frameworks */,
@@ -163,6 +235,41 @@
 				2F8EF7FC313232E542766089 /* Pods-LiangBenBen.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		853064F31E285E0E00A57297 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				853064F41E285E0E00A57297 /* camra_beauty@2x.png */,
+				853064F51E285E0E00A57297 /* camra_beauty@3x.png */,
+				853064F61E285E0E00A57297 /* camra_beauty_close@2x.png */,
+				853064F71E285E0E00A57297 /* camra_beauty_close@3x.png */,
+				853064F81E285E0E00A57297 /* camra_preview@2x.png */,
+				853064F91E285E0E00A57297 /* camra_preview@3x.png */,
+				853064FA1E285E0E00A57297 /* close_preview@2x.png */,
+				853064FB1E285E0E00A57297 /* close_preview@3x.png */,
+				853064FC1E285E0E00A57297 /* ios-29x29.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		8530650B1E28A2C300A57297 /* PYSearch */ = {
+			isa = PBXGroup;
+			children = (
+				8530650C1E28A2C300A57297 /* PYSearch.bundle */,
+				8530650D1E28A2C300A57297 /* PYSearch.h */,
+				8530650E1E28A2C300A57297 /* PYSearchConst.h */,
+				8530650F1E28A2C300A57297 /* PYSearchConst.m */,
+				853065101E28A2C300A57297 /* PYSearchSuggestionViewController.h */,
+				853065111E28A2C300A57297 /* PYSearchSuggestionViewController.m */,
+				853065121E28A2C300A57297 /* PYSearchViewController.h */,
+				853065131E28A2C300A57297 /* PYSearchViewController.m */,
+				853065141E28A2C300A57297 /* UIColor+PYExtension.h */,
+				853065151E28A2C300A57297 /* UIColor+PYExtension.m */,
+				853065161E28A2C300A57297 /* UIView+PYExtension.h */,
+				853065171E28A2C300A57297 /* UIView+PYExtension.m */,
+			);
+			path = PYSearch;
 			sourceTree = "<group>";
 		};
 		8550B17F1E2391AB003E4872 = {
@@ -248,6 +355,10 @@
 		8550B1AD1E23923C003E4872 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				853064C51E26393300A57297 /* LBBLocationManager.h */,
+				853064C61E26393300A57297 /* LBBLocationManager.m */,
+				853064ED1E278B8D00A57297 /* LBBCacheHelper.h */,
+				853064EE1E278B8D00A57297 /* LBBCacheHelper.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -269,7 +380,6 @@
 			children = (
 				8550B1B01E23923C003E4872 /* LBBFocusViewController.h */,
 				8550B1B11E23923C003E4872 /* LBBFocusViewController.m */,
-				8550B1B21E23923C003E4872 /* LBBFocusViewController.xib */,
 				8550B1B31E23923C003E4872 /* LBBHomeViewController.h */,
 				8550B1B41E23923C003E4872 /* LBBHomeViewController.m */,
 				8550B1B51E23923C003E4872 /* LBBHomeViewController.xib */,
@@ -278,12 +388,15 @@
 				8550B1B81E23923C003E4872 /* LBBHotViewController.xib */,
 				8550B1B91E23923C003E4872 /* LBBNearViewController.h */,
 				8550B1BA1E23923C003E4872 /* LBBNearViewController.m */,
-				8550B1BB1E23923C003E4872 /* LBBNearViewController.xib */,
 				853064BD1E26139D00A57297 /* LBBPlayerViewController.h */,
 				853064BE1E26139D00A57297 /* LBBPlayerViewController.m */,
 				853064C01E26194400A57297 /* LBBLiveChatViewController.h */,
 				853064C11E26194400A57297 /* LBBLiveChatViewController.m */,
 				853064C21E26194400A57297 /* LBBLiveChatViewController.xib */,
+				8530651E1E28A35D00A57297 /* LBBSearchController.h */,
+				8530651F1E28A35D00A57297 /* LBBSearchController.m */,
+				853065211E28A61B00A57297 /* LBBTempViewController.h */,
+				853065221E28A61B00A57297 /* LBBTempViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -306,6 +419,8 @@
 				8530649A1E25EFE200A57297 /* LBBCreator.m */,
 				8530649C1E25EFF200A57297 /* LBBAdvertise.h */,
 				8530649D1E25EFF200A57297 /* LBBAdvertise.m */,
+				853064E31E27836300A57297 /* LBBAddModel.h */,
+				853064E41E27836300A57297 /* LBBAddModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,6 +439,11 @@
 				8550B1F21E23956D003E4872 /* LBBTopView.m */,
 				853064A21E25F6D900A57297 /* LBBLiveCell.h */,
 				853064A31E25F6D900A57297 /* LBBLiveCell.m */,
+				853064CC1E27219900A57297 /* LBBNearCell.h */,
+				853064CD1E27219900A57297 /* LBBNearCell.m */,
+				853064E61E2784A700A57297 /* LBBAddView.h */,
+				853064E71E2784A700A57297 /* LBBAddView.m */,
+				853064EB1E27854500A57297 /* LBBAddView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -374,6 +494,9 @@
 		8550B1C81E23923C003E4872 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				853065061E286F3F00A57297 /* LFLivePreview.h */,
+				853065071E286F3F00A57297 /* LFLivePreview.m */,
+				853064F31E285E0E00A57297 /* images */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -381,6 +504,7 @@
 		8550B1C91E23923C003E4872 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				8530650B1E28A2C300A57297 /* PYSearch */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -400,9 +524,9 @@
 		8550B1CB1E23923C003E4872 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8550B1CC1E23923C003E4872 /* LBBMeViewController.h */,
-				8550B1CD1E23923C003E4872 /* LBBMeViewController.m */,
-				8550B1CE1E23923C003E4872 /* LBBMeViewController.xib */,
+				853065271E28B84400A57297 /* LBBMeViewController.h */,
+				853065281E28B84400A57297 /* LBBMeViewController.m */,
+				853065291E28B84400A57297 /* LBBMeViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -417,6 +541,8 @@
 		8550B1D01E23923C003E4872 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				853065311E28BEFD00A57297 /* LBBSetting.h */,
+				853065321E28BEFD00A57297 /* LBBSetting.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -431,6 +557,9 @@
 		8550B1D21E23923C003E4872 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8530652C1E28B87900A57297 /* LBBMeInfoView.h */,
+				8530652D1E28B87900A57297 /* LBBMeInfoView.m */,
+				8530652F1E28B88800A57297 /* LBBMeInfoView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -452,6 +581,8 @@
 			children = (
 				8550B1D51E23923C003E4872 /* AppDelegate.h */,
 				8550B1D61E23923C003E4872 /* AppDelegate.m */,
+				853065241E28B6B900A57297 /* AppDelegate+LBBSetup.h */,
+				853065251E28B6B900A57297 /* AppDelegate+LBBSetup.m */,
 				8550B1F01E239379003E4872 /* liangbenben.pch */,
 				8530649F1E25F20300A57297 /* MJExtensionConfig.h */,
 				853064A01E25F20300A57297 /* MJExtensionConfig.m */,
@@ -509,6 +640,7 @@
 		A3A88A308B8A1CFE2424864B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				853064C81E263C3200A57297 /* CoreLocation.framework */,
 				853064BB1E26123D00A57297 /* libz.tbd */,
 				853064B91E26123600A57297 /* libbz2.tbd */,
 				853064B71E26122B00A57297 /* AudioToolbox.framework */,
@@ -590,14 +722,24 @@
 			files = (
 				8550B1E51E23923C003E4872 /* LBBHomeViewController.xib in Resources */,
 				8550B1E71E23923C003E4872 /* LBBHotViewController.xib in Resources */,
+				853064FE1E285E0E00A57297 /* camra_beauty@3x.png in Resources */,
+				853065301E28B88800A57297 /* LBBMeInfoView.xib in Resources */,
+				8530652B1E28B84400A57297 /* LBBMeViewController.xib in Resources */,
+				853065041E285E0E00A57297 /* close_preview@3x.png in Resources */,
 				8550B19B1E2391AC003E4872 /* LaunchScreen.storyboard in Resources */,
 				8550B1981E2391AC003E4872 /* Assets.xcassets in Resources */,
-				8550B1E31E23923C003E4872 /* LBBFocusViewController.xib in Resources */,
 				853064C41E26194400A57297 /* LBBLiveChatViewController.xib in Resources */,
+				853065021E285E0E00A57297 /* camra_preview@3x.png in Resources */,
 				8550B1961E2391AC003E4872 /* Main.storyboard in Resources */,
 				8550B1EB1E23923C003E4872 /* LBBLaunchViewController.xib in Resources */,
-				8550B1ED1E23923C003E4872 /* LBBMeViewController.xib in Resources */,
-				8550B1E91E23923C003E4872 /* LBBNearViewController.xib in Resources */,
+				853065011E285E0E00A57297 /* camra_preview@2x.png in Resources */,
+				853065051E285E0E00A57297 /* ios-29x29.png in Resources */,
+				853065031E285E0E00A57297 /* close_preview@2x.png in Resources */,
+				853065181E28A2C300A57297 /* PYSearch.bundle in Resources */,
+				853064FD1E285E0E00A57297 /* camra_beauty@2x.png in Resources */,
+				853065001E285E0E00A57297 /* camra_beauty_close@3x.png in Resources */,
+				853064EC1E27854500A57297 /* LBBAddView.xib in Resources */,
+				853064FF1E285E0E00A57297 /* camra_beauty_close@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,28 +799,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				8530649E1E25EFF200A57297 /* LBBAdvertise.m in Sources */,
-				8550B1EC1E23923C003E4872 /* LBBMeViewController.m in Sources */,
+				8530651C1E28A2C300A57297 /* UIColor+PYExtension.m in Sources */,
 				853064A11E25F20300A57297 /* MJExtensionConfig.m in Sources */,
 				8550B1E41E23923C003E4872 /* LBBHomeViewController.m in Sources */,
+				853065261E28B6B900A57297 /* AppDelegate+LBBSetup.m in Sources */,
 				8550B1E21E23923C003E4872 /* LBBFocusViewController.m in Sources */,
 				8550B1DF1E23923C003E4872 /* LBBNavigationController.m in Sources */,
+				8530652E1E28B87900A57297 /* LBBMeInfoView.m in Sources */,
+				8530651B1E28A2C300A57297 /* PYSearchViewController.m in Sources */,
+				853065081E286F3F00A57297 /* LFLivePreview.m in Sources */,
+				8530651D1E28A2C300A57297 /* UIView+PYExtension.m in Sources */,
 				853064921E25E19B00A57297 /* LBBBaseHandler.m in Sources */,
 				8550B1E61E23923C003E4872 /* LBBHotViewController.m in Sources */,
 				8530648F1E25DE9100A57297 /* UIImageView+SDWebImage.m in Sources */,
 				8550B1DE1E23923C003E4872 /* LBBBaseViewController.m in Sources */,
 				8550B1E81E23923C003E4872 /* LBBNearViewController.m in Sources */,
+				853064E81E2784A700A57297 /* LBBAddView.m in Sources */,
 				8530649B1E25EFE200A57297 /* LBBCreator.m in Sources */,
 				853064951E25E2AE00A57297 /* LBBHomeHandler.m in Sources */,
+				8530651A1E28A2C300A57297 /* PYSearchSuggestionViewController.m in Sources */,
+				853065191E28A2C300A57297 /* PYSearchConst.m in Sources */,
 				8550B1E11E23923C003E4872 /* LBBTabBarViewController.m in Sources */,
 				853064A51E25F6D900A57297 /* LBBLiveCell.m in Sources */,
 				8550B1EE1E23923C003E4872 /* AppDelegate.m in Sources */,
 				8550B1E01E23923C003E4872 /* LBBTabBar.m in Sources */,
+				853064E51E27836300A57297 /* LBBAddModel.m in Sources */,
 				8550B1EA1E23923C003E4872 /* LBBLaunchViewController.m in Sources */,
+				853064EF1E278B8D00A57297 /* LBBCacheHelper.m in Sources */,
 				8550B1F31E23956D003E4872 /* LBBTopView.m in Sources */,
+				853065331E28BEFD00A57297 /* LBBSetting.m in Sources */,
+				853065231E28A61B00A57297 /* LBBTempViewController.m in Sources */,
+				853064C71E26393300A57297 /* LBBLocationManager.m in Sources */,
 				8550B18D1E2391AC003E4872 /* main.m in Sources */,
+				8530652A1E28B84400A57297 /* LBBMeViewController.m in Sources */,
 				853064981E25EFCF00A57297 /* LBBLive.m in Sources */,
+				853064CF1E27219900A57297 /* LBBNearCell.m in Sources */,
 				853064C31E26194400A57297 /* LBBLiveChatViewController.m in Sources */,
 				853064BF1E26139D00A57297 /* LBBPlayerViewController.m in Sources */,
+				853065201E28A35D00A57297 /* LBBSearchController.m in Sources */,
 				8530648E1E25DE9100A57297 /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -800,13 +958,16 @@
 			baseConfigurationReference = A661AC4107BE2DF89677E82F /* Pods-LiangBenBen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = KY796692DU;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = /Users/mac/Desktop/LiangBenBen/LiangBenBen/Other/liangbenben.pch;
 				INFOPLIST_FILE = LiangBenBen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yztMerchant.yztCompany.LiangBenBen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -818,13 +979,16 @@
 			baseConfigurationReference = 2F8EF7FC313232E542766089 /* Pods-LiangBenBen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = KY796692DU;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = /Users/mac/Desktop/LiangBenBen/LiangBenBen/Other/liangbenben.pch;
 				INFOPLIST_FILE = LiangBenBen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yztMerchant.yztCompany.LiangBenBen;
 				PRODUCT_NAME = "$(TARGET_NAME)";

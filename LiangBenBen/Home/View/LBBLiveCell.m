@@ -25,19 +25,22 @@
         [backView addSubview:self.headImageView];
         
         self.nameLabel  = [[UILabel alloc]initWithFrame:CGRectMake(CGRectGetMaxX(self.headImageView.frame)+10, 10, 100, 30)];
-        
+        self.nameLabel.textColor = [UIColor blackColor];
+        self.nameLabel.font = [UIFont systemFontOfSize:14];
         [backView addSubview:self.nameLabel];
         
         
         self.locationLabel  = [[UILabel alloc]initWithFrame:CGRectMake(CGRectGetMaxX(self.headImageView.frame)+10, CGRectGetMaxY(self.nameLabel.frame), 100, 30)];
-        
+        self.locationLabel.textColor = [UIColor blackColor];
+        self.locationLabel.font = [UIFont systemFontOfSize:14];
         [backView addSubview:self.locationLabel];
         self.onLineLabel  = [[UILabel alloc]initWithFrame:CGRectMake(SCREEN_WIDTH-10-100, 10, 100, 30)];
         
         [backView addSubview:self.onLineLabel];
 
         self.otherLabel  = [[UILabel alloc]initWithFrame:CGRectMake(SCREEN_WIDTH-10-100, CGRectGetMaxY(self.onLineLabel.frame), 100, 30)];
-        
+        self.otherLabel.textColor = [UIColor blackColor];
+        self.otherLabel.font = [UIFont systemFontOfSize:14];
         [backView addSubview:self.otherLabel];
 
         
@@ -53,14 +56,22 @@
     
     _live = live;
     
+    if ([live.creator.nick isEqualToString:@"LiangBenBen"]) {
+        
+        self.headImageView.image = [UIImage  imageNamed:@"WechatIMG90.jpeg"];
+        self.bigImageView.image = [UIImage  imageNamed:@"WechatIMG90.jpeg"];
+        
+    } else {
+
     [self.headImageView downloadImage:[NSString stringWithFormat:@"%@",live.creator.portrait] placeholder:@""];
     [self.bigImageView downloadImage:[NSString stringWithFormat:@"%@",live.creator.portrait] placeholder:@""];
-
+    }
     self.nameLabel.text = live.creator.nick;
     
     self.locationLabel.text  = live.city;
     self.onLineLabel.text = [@(live.onlineUsers) stringValue];
-    self.otherLabel.text = live.distance;
+        self.otherLabel.text = live.distance;
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

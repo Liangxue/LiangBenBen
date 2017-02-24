@@ -17,7 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = RGBCOLOR(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255));
+    self.view.backgroundColor = [UIColor clearColor];
+    
+    RGBCOLOR(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255));
     // Do any additional setup after loading the view.
 }
 

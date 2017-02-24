@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LBBLaunchViewController">
             <connections>
+                <outlet property="address" destination="f3Q-uK-vAi" id="S4h-HM-58f"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -29,17 +30,56 @@
                         <action selector="closeLaunch:" destination="-1" eventType="touchUpInside" id="CLx-gp-rav"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3Q-uK-vAi">
+                    <rect key="frame" x="10" y="30" width="80" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="5wp-ap-eIF"/>
+                        <constraint firstAttribute="width" constant="80" id="jZe-C7-thZ"/>
+                    </constraints>
+                    <state key="normal" title="北京" image="launch_map_on">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="address:" destination="-1" eventType="touchUpInside" id="DXO-qW-fPB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iaR-x7-2fE">
+                    <rect key="frame" x="63" y="312" width="250" height="44"/>
+                    <state key="normal" title="开启直播" backgroundImage="room_button">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="liveButtton:" destination="-1" eventType="touchUpInside" id="XtX-Qb-OKN"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="直播" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CQe-o9-BNL">
+                    <rect key="frame" x="100" y="262" width="175" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="A0h-so-tvW"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="CQe-o9-BNL" secondAttribute="trailing" constant="100" id="8bp-l5-Gkt"/>
                 <constraint firstAttribute="bottom" secondItem="C8f-6i-Xlt" secondAttribute="bottom" id="9uM-xG-cxR"/>
                 <constraint firstItem="ZRo-ft-MQi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="CLo-V4-N0x"/>
+                <constraint firstItem="iaR-x7-2fE" firstAttribute="top" secondItem="CQe-o9-BNL" secondAttribute="bottom" constant="20" id="F4F-Zk-4VO"/>
                 <constraint firstAttribute="trailing" secondItem="C8f-6i-Xlt" secondAttribute="trailing" id="GZR-u3-ZUP"/>
                 <constraint firstAttribute="bottom" secondItem="C8f-6i-Xlt" secondAttribute="bottom" id="IQe-6Q-hOT"/>
                 <constraint firstAttribute="trailing" secondItem="ZRo-ft-MQi" secondAttribute="trailing" id="VQl-cg-pqb"/>
+                <constraint firstItem="iaR-x7-2fE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Xm0-4p-bGt"/>
                 <constraint firstAttribute="trailing" secondItem="C8f-6i-Xlt" secondAttribute="trailing" id="Y5u-1h-p7Z"/>
                 <constraint firstItem="C8f-6i-Xlt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="b5h-aV-99B"/>
+                <constraint firstItem="f3Q-uK-vAi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="b6M-ov-lz7"/>
                 <constraint firstItem="C8f-6i-Xlt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dq4-Zi-DS2"/>
+                <constraint firstItem="iaR-x7-2fE" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="nK2-wK-d2M"/>
+                <constraint firstItem="f3Q-uK-vAi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="nxI-zV-Af0"/>
+                <constraint firstItem="CQe-o9-BNL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="100" id="qLK-8R-p9m"/>
                 <constraint firstItem="C8f-6i-Xlt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="yCV-v9-EeF"/>
                 <constraint firstItem="C8f-6i-Xlt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yDI-IU-Uy6"/>
             </constraints>
@@ -49,5 +89,7 @@
     <resources>
         <image name="bg_zbfx" width="16" height="16"/>
         <image name="launch_close" width="64" height="64"/>
+        <image name="launch_map_on" width="26" height="26"/>
+        <image name="room_button" width="250" height="44"/>
     </resources>
 </document>

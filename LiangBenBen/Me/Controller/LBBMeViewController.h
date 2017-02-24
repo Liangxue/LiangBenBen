@@ -2,12 +2,12 @@
 //  LBBMeViewController.h
 //  LiangBenBen
 //
-//  Created by xue on 2017/1/6.
+//  Created by xue on 2017/1/13.
 //  Copyright © 2017年 liangxue. All rights reserved.
 //
 
-#import "LBBBaseViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface LBBMeViewController : LBBBaseViewController
+@interface LBBMeViewController : UITableViewController
 
 @end

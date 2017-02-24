@@ -7,6 +7,9 @@
 //
 #import "AppDelegate.h"
 #import "LBBTabBarViewController.h"
+#import "LBBLocationManager.h"
+#import "LBBAddView.h"
+#import "AppDelegate+LBBSetup.h"
 @interface AppDelegate ()
 
 @end
@@ -20,6 +23,16 @@
     
     self.window.rootViewController = mainVC;
     
+    [self.window makeKeyAndVisible];
+    
+    [[LBBLocationManager sharedManager] getGps:^(NSString *lat, NSString *lon) {
+        NSLog(@"1234 %@  %@",lat,lon);
+        
+    }];
+    
+    LBBAddView *addView = [LBBAddView loadAddView];
+    
+    [self.window addSubview:addView];
     // Override point for customization after application launch.
     return YES;
 }

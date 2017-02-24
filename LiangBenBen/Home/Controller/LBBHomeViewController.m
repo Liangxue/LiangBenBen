@@ -8,6 +8,7 @@
 
 #import "LBBHomeViewController.h"
 #import "LBBTopView.h"
+#import "LBBSearchController.h"
 @interface LBBHomeViewController ()<UIScrollViewDelegate>
 @property (weak, nonatomic) IBOutlet UIScrollView *contentScrollView;
 
@@ -102,6 +103,10 @@
     
 }
 - (void)leftAction:(UIBarButtonItem*)item{
+    
+    LBBSearchController *search = [[LBBSearchController alloc]init];
+    
+    [self presentViewController:search animated:YES completion:nil];
     
 }
 

@@ -89,7 +89,7 @@
         [self initUI];
         
         [self addChildVC];
-        
+    
 }
 - (void)initPlayer {
         
@@ -104,22 +104,21 @@
     
 - (void)initUI {
         
-        self.view.backgroundColor = [UIColor blackColor];
         [self initBlurImage];
 }
     
 - (void)addChildVC {
-   
-    [self addChildViewController:self.chatVC];
     
+    [self addChildViewController:self.chatVC];
+    [self.view addSubview:self.chatVC.view];
     [self.chatVC.view mas_makeConstraints:^(MASConstraintMaker *make) {
-        
         make.edges.equalTo(self.view);
     }];
+    [self.chatVC didMoveToParentViewController:self];
     
-    [self.view addSubview:self.chatVC.view];
-}
-- (void)didReceiveMemoryWarning {
+    self.chatVC.live = self.live;
+    
+}- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

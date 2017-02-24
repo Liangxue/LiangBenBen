@@ -7,8 +7,9 @@
 //
 
 #import "LBBLaunchViewController.h"
-
+#import "LFLivePreview.h"
 @interface LBBLaunchViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *address;
 
 @end
 
@@ -16,6 +17,30 @@
 - (IBAction)closeLaunch:(UIButton *)sender {
     
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+- (IBAction)liveButtton:(UIButton *)sender {
+    UIView * back = [[UIView alloc] initWithFrame:self.view.bounds];
+    back.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:back];
+
+    
+    LFLivePreview *liveView = [[LFLivePreview alloc]initWithFrame:self.view.bounds];
+    [self.view addSubview:liveView];
+    liveView.liveUrl = Live_LiangBenBen;
+    [liveView startLive];
+}
+
+- (IBAction)address:(UIButton *)sender{
+    
+}
+
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+    return YES;
 }
 
 - (void)viewDidLoad {
